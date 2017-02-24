@@ -1,0 +1,31 @@
+﻿Build started 2015-06-16 14:47:38.
+     1>Project "C:\Users\Admin\Desktop\Projekt programowanie\Projekt programowanie\Projekt programowanie\Projekt programowanie.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Programy\Microsoft visual studio\VC\bin\CL.exe /c /I"C:\Programy\Microsoft visual studio\opencv\build\\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt App.cpp Cursor.cpp Form.cpp Menu.cpp main.cpp
+         Cursor.cpp
+     1>c:\users\admin\desktop\projekt programowanie\projekt programowanie\projekt programowanie\cursor.cpp(45): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\admin\desktop\projekt programowanie\projekt programowanie\projekt programowanie\cursor.cpp(67): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         Generating Code...
+         Compiling...
+         App.cpp
+     1>c:\users\admin\desktop\projekt programowanie\projekt programowanie\projekt programowanie\form.h(28): warning C4240: nonstandard extension used : access to 'Form::ButtonCode' now defined to be 'public', previously it was defined to be 'private'
+                 c:\users\admin\desktop\projekt programowanie\projekt programowanie\projekt programowanie\form.h(9) : see declaration of 'Form::ButtonCode'
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         Menu.cpp
+         Form.cpp
+         main.cpp
+       Link:
+         C:\Programy\Microsoft visual studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Admin\Desktop\Projekt programowanie\Projekt programowanie\Debug\Projekt programowanie.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Programy\Microsoft visual studio\opencv\build\\x86\vc12\lib" opencv_ts300d.lib opencv_world300d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Admin\Desktop\Projekt programowanie\Projekt programowanie\Debug\Projekt programowanie.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Admin\Desktop\Projekt programowanie\Projekt programowanie\Debug\Projekt programowanie.lib" /MACHINE:X86 Debug\App.obj
+         Debug\Button.obj
+         Debug\Cursor.obj
+         Debug\Form.obj
+         Debug\Label.obj
+         Debug\main.obj
+         Debug\Menu.obj
+         Projekt programowanie.vcxproj -> C:\Users\Admin\Desktop\Projekt programowanie\Projekt programowanie\Debug\Projekt programowanie.exe
+     1>Done Building Project "C:\Users\Admin\Desktop\Projekt programowanie\Projekt programowanie\Projekt programowanie\Projekt programowanie.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.55
